@@ -1,0 +1,139 @@
+body {
+  background-color: lightblue;
+}
+
+.intro {
+  margin-top: 30px;
+  text-align: center;
+  font-family: Arial;
+  clear: both;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: Arial;
+  
+}
+
+p {
+  font-size: 14pt;
+}
+
+#image-gallery {
+  height: 800px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+#current-image {
+  width: 100%;
+  height:fit-content;
+}
+
+#thumbnails {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#image-thumbs {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.thumb {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+img {
+  border: 1px solid #000000;
+}
+
+/* Style the navbar */
+.navbar {
+  overflow: hidden;
+  background-image: linear-gradient(180deg, rgb(36, 97, 132), rgb(74, 112, 134));
+  text-align: center;
+  border: 1px solid #000000;
+}
+
+/* Navbar links */
+.navbar a {
+
+  font-family: Arial;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+
+
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky+.content {
+  padding-top: 60px;
+}
+
+#feedback {
+
+  max-width: 500px;
+  border: 1px solid #000000;
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+
+
+
+}
+
+.about {
+  display: flex
+  
+
+}
+
+#column1 {
+  flex: 50%;
+  padding: 20px;
+  
+}
+
+#column2 {
+  flex: 50%;
+  float: right;
+  padding: 38px;
+  
+}
+
+#aboutpage {
+  font-size: 19px;
+  font-family: Arial;
+}
+
+#shutter {
+  background-color: transparent;
+}
