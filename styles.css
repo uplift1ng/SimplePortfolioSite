@@ -1,0 +1,200 @@
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  background-color: lightblue;
+}
+
+.intro {
+  margin-top: 30px;
+  text-align: center;
+  font-family: Arial;
+  clear: both;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: Arial;
+
+
+}
+
+h2 {
+  font-size: 40px;
+  font-family: Arial;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+
+
+}
+
+p {
+  font-size: 19pt;
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#image-gallery {
+  height: 800px;
+  width: 550px;
+  margin: 0 auto;
+}
+
+#current-image {
+  width: 100%;
+  height: fit-content;
+  box-shadow: 1px 1px 6px #282828;
+  transition: all .2s ease-in-out;
+}
+
+#current-image:hover {
+  transform: scale(1.2);
+}
+
+.thumb:hover {
+  transform: scale(1.2);
+}
+
+#thumbnails {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  transition: all .2s ease-in-out;
+}
+
+#image-thumbs {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+
+}
+
+.thumb {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+
+}
+
+img {
+  border: 1px solid #000000;
+  box-shadow: 2px 2px 13px #282828;
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-image: linear-gradient(180deg, rgb(36, 97, 132), rgb(74, 112, 134));
+  text-align: center;
+  border: 1px solid #000000;
+  box-shadow: 1px 1px 3px #282828;
+}
+
+
+.navbar a {
+
+  font-family: Arial;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+
+
+}
+
+.navbar a:hover {
+  box-shadow: inset 100px 0 0 0 #2997bf;
+  color: white;
+}
+
+
+#feedback {
+
+  max-width: 450px;
+  text-align: center;
+  border: 1px solid #000000;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left;
+  width: 50%;
+  margin-top: 30px;
+  box-shadow: 1px 1px 10px #282828;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+
+}
+
+#column1 {
+  flex: 50%;
+  padding: 20px;
+
+
+}
+
+#column2 {
+  flex: 50%;
+  padding: 38px;
+
+}
+
+#aboutpage {
+  font-size: 19px;
+  font-family: Arial;
+}
+
+
+#contact {
+  float: left;
+  margin-left: 30%;
+  font-family: Arial;
+  font-size: 30px;
+  width: 25%;
+
+
+}
+
+#feedcontact:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}

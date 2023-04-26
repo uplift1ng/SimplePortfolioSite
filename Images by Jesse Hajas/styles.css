@@ -78,6 +78,11 @@ img {
 
 }
 
+.navbar a:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
+
 /* Page content */
 .content {
   padding: 16px;
