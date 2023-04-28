@@ -48,8 +48,8 @@
       </h2>
       <p>I will reply to your feedback at
         <span style="text-decoration:underline">
-          <?php echo $email; ?>
-        </span> soon.
+        <?php echo $email;?>
+        </span>soon.
       </p>
     </div>
 
